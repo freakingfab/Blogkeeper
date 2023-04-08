@@ -1,0 +1,18 @@
+
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p> Source Person: <%= src %> </p>
+
+
+<%  res_arr.forEach(function(post){ %>
+
+
+<p>
+<%=post.goal%> is a <%= post.distance %> level friend 
+</p>
+<br>
+<% }) %>
+
+
+<%- include("partials/footer"); -%>

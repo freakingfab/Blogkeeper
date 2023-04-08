@@ -5,6 +5,15 @@
 <h1><%=title%></h1>
 <p><%=content%></p>
 
-
+<form class="form-signin" method="POST" action="/posts/<%=PostId%>">
+    <div class="form-group">
+        <h2>Comment</h2>
+        <label>Email</label>
+        <input class="form-control" type="email" name="postTitle">
+        <label>Add a comment</label>
+        <textarea class="form-control" name="postBody" rows="5" cols="10"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Publish</button>
+</form>
 
 <%- include("partials/footer"); -%>
