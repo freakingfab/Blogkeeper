@@ -1,5 +1,9 @@
 # Blog Website  with Comment and Connection Section.
 
+To run the code:
+-> npm install
+-> node app.js
+
 SignUp: You will be first directed to a signup page where you will enter you personal details to create a user.
 
 Home: After successful signup you will be directed to home page, where you will find all bogs listed there. there is also a navbar with  compose, connection and a home button for routing throught out the website.
